@@ -1,0 +1,8 @@
+#pragma once
+
+#include "ModelBase.h"
+
+MULENGINE_NCNN_NAMESPACE_BEGIN
+
+
+MULENGINE_NCNN_NAMESPACE_END

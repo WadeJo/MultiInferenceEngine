@@ -1,0 +1,404 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+      生成启动时间为 2025/11/17 23:29:04。
+      
+      节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.47
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/3.28.0-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+      生成启动时间为 2025/11/17 23:29:06。
+      
+      节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/3.28.0-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-pct5pn"
+      binary: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-pct5pn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-pct5pn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40057.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/11/17 23:29:06。
+        
+        节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pct5pn\\cmTC_40057.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_40057.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pct5pn\\Debug\\”。
+          正在创建目录“cmTC_40057.dir\\Debug\\cmTC_40057.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_40057.dir\\Debug\\cmTC_40057.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_40057.dir\\Debug\\cmTC_40057.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40057.dir\\Debug\\\\" /Fd"cmTC_40057.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40057.dir\\Debug\\\\" /Fd"cmTC_40057.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pct5pn\\Debug\\cmTC_40057.exe" /INCREMENTAL /ILK:"cmTC_40057.dir\\Debug\\cmTC_40057.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-pct5pn/Debug/cmTC_40057.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-pct5pn/Debug/cmTC_40057.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_40057.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_40057.vcxproj -> E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pct5pn\\Debug\\cmTC_40057.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_40057.dir\\Debug\\cmTC_40057.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_40057.dir\\Debug\\cmTC_40057.tlog\\cmTC_40057.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pct5pn\\cmTC_40057.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-qzottv"
+      binary: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-qzottv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-qzottv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5db4b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/11/17 23:29:07。
+        
+        节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qzottv\\cmTC_5db4b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5db4b.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qzottv\\Debug\\”。
+          正在创建目录“cmTC_5db4b.dir\\Debug\\cmTC_5db4b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5db4b.dir\\Debug\\cmTC_5db4b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_5db4b.dir\\Debug\\cmTC_5db4b.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5db4b.dir\\Debug\\\\" /Fd"cmTC_5db4b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5db4b.dir\\Debug\\\\" /Fd"cmTC_5db4b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qzottv\\Debug\\cmTC_5db4b.exe" /INCREMENTAL /ILK:"cmTC_5db4b.dir\\Debug\\cmTC_5db4b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-qzottv/Debug/cmTC_5db4b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-qzottv/Debug/cmTC_5db4b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5db4b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5db4b.vcxproj -> E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qzottv\\Debug\\cmTC_5db4b.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_5db4b.dir\\Debug\\cmTC_5db4b.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5db4b.dir\\Debug\\cmTC_5db4b.tlog\\cmTC_5db4b.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qzottv\\cmTC_5db4b.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.49
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "Impl/CMakeLists.txt:105 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-hctlfb"
+      binary: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-hctlfb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-hctlfb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a70d8.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/11/18 0:34:31。
+        
+        节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\cmTC_a70d8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a70d8.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\Debug\\”。
+          正在创建目录“cmTC_a70d8.dir\\Debug\\cmTC_a70d8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a70d8.dir\\Debug\\cmTC_a70d8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_a70d8.dir\\Debug\\cmTC_a70d8.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_a70d8.dir\\Debug\\\\" /Fd"cmTC_a70d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\src.cxx"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_a70d8.dir\\Debug\\\\" /Fd"cmTC_a70d8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\src.cxx"
+          src.cxx
+        E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\src.cxx(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\cmTC_a70d8.vcxproj]
+        已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\cmTC_a70d8.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\cmTC_a70d8.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\src.cxx(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hctlfb\\cmTC_a70d8.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "Impl/CMakeLists.txt:105 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-7h4qeg"
+      binary: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-7h4qeg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-7h4qeg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b43c1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/11/18 0:34:32。
+        
+        节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\cmTC_b43c1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b43c1.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\Debug\\”。
+          正在创建目录“cmTC_b43c1.dir\\Debug\\cmTC_b43c1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b43c1.dir\\Debug\\cmTC_b43c1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_b43c1.dir\\Debug\\cmTC_b43c1.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b43c1.dir\\Debug\\\\" /Fd"cmTC_b43c1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\CheckFunctionExists.cxx"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b43c1.dir\\Debug\\\\" /Fd"cmTC_b43c1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\Debug\\cmTC_b43c1.exe" /INCREMENTAL /ILK:"cmTC_b43c1.dir\\Debug\\cmTC_b43c1.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-7h4qeg/Debug/cmTC_b43c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-7h4qeg/Debug/cmTC_b43c1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b43c1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\cmTC_b43c1.vcxproj]
+        已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\cmTC_b43c1.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\cmTC_b43c1.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7h4qeg\\cmTC_b43c1.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "Impl/CMakeLists.txt:105 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-xho0n7"
+      binary: "E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-xho0n7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-xho0n7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d921.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2025/11/18 0:34:33。
+        
+        节点 1 上的项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\cmTC_2d921.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2d921.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\Debug\\”。
+          正在创建目录“cmTC_2d921.dir\\Debug\\cmTC_2d921.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2d921.dir\\Debug\\cmTC_2d921.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_2d921.dir\\Debug\\cmTC_2d921.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2d921.dir\\Debug\\\\" /Fd"cmTC_2d921.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\CheckFunctionExists.cxx"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2d921.dir\\Debug\\\\" /Fd"cmTC_2d921.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\Debug\\cmTC_2d921.exe" /INCREMENTAL /ILK:"cmTC_2d921.dir\\Debug\\cmTC_2d921.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-xho0n7/Debug/cmTC_2d921.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/repos/ML/MultiInferenceEngine/build/CMakeFiles/CMakeScratch/TryCompile-xho0n7/Debug/cmTC_2d921.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2d921.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\cmTC_2d921.vcxproj]
+        已完成生成项目“E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\cmTC_2d921.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\cmTC_2d921.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\repos\\ML\\MultiInferenceEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xho0n7\\cmTC_2d921.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+...
